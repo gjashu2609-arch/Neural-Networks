@@ -11,7 +11,7 @@ class MLP:
 
     def d_activation(self, x):
         return x * (1 - x)
-
+    
     def initialize(self, input_size):
         self.weights = []
         self.biases = []
